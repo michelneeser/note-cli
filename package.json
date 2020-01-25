@@ -1,0 +1,14 @@
+{
+  "name": "note-cli",
+  "version": "0.0.1",
+  "description": "small note tool for your terminal",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Michel Neeser",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^4.1.0",
+    "inquirer": "^7.0.4",
+    "uuid": "^3.4.0"
+  }
+}
