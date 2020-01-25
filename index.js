@@ -13,9 +13,11 @@ program
   .description('show all notes')
   .action(async () => {
     const notes = await getNotes(program.path);
+    console.log('\n'); // TODO improve
     for ([index, note] of notes.entries()) {
       console.log(`${++index}) ${note.text}`);
     }
+    console.log('\n'); // TODO improve
   });
 
 program
